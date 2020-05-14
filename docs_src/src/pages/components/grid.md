@@ -54,7 +54,7 @@ Milligram grid components
 ## Column size
 
 Milligram provides a 12-columns grid system.
-With `svmilli`, you just need to use <code><strong>&lt;Col /&gt;</strong></code> component and pass it a `size` prop.
+With `svmilli`, you just need to use &lt;Col /&gt; component and pass it a `size` prop.
 
 ```example
 <script>
