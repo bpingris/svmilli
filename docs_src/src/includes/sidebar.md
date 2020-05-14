@@ -1,0 +1,10 @@
+* [Getting Started](getting-started)
+* Components
+    - [Button](components/button)
+    - [Table](components/table)
+    - [Grid](components/grid)
+    - [Input](components/input)
+    - [Card](components/card)
+    - [Modal](components/modal)
+    - [Quote](components/quote)
+* [Github](https://github.com/alexxnb/svelte-docs)

@@ -1,0 +1,29 @@
+{
+  "name": "svmilli",
+  "description": "UI framework for Svelte following the Google's material design",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "dist/styles/*.css"
+  ],
+  "version": "0.0.12",
+  "dependencies": {
+    "rollup-plugin-postcss": "^3.1.1"
+  }
+}
