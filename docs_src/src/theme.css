@@ -1,5 +1,21 @@
 /* Theme tunning: for full list ov variables visit the https://alexxnb.github.io/svelte-docs/theming */
 
-:root{
-    --primary: red;
+:root {
+  --primary: #9b4dca;
+}
+
+.header {
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 34px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
 }

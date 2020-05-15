@@ -2,12 +2,17 @@
 layout: 'no_sidebar'
 title: false
 ---
-# Great Success
 
-You are ready to write documentation for new [Svelte](https://svelte.dev) thing!
+<img src="static/logo.svg" style=" width: 150px;">
+<h1 class="header">
+  SVMILLI
+</h1>
 
-Start from editing files in `src/pages` directory.
 
-![Great Success](static/great-success.png "Great Success")
+Svmilli is a set of Svelte components using [milligram](https://milligram.io/) for the style !
 
-> For more info visit the [Svelte-Docs Reference](https://alexxnb.github.io/svelte-docs/)
+
+<div class="flex justify-around">
+  <a href="/install">Install</a>
+  <a href="/documentation">Documentation</a>
+</div>
