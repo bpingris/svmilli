@@ -8,6 +8,7 @@ Milligram's input
   let value
 </script>
 
+<Input bind:value />
 <Input bind:value label="Text" />
 <Input bind:value label="Password" type="password" />
 <Input bind:value label="Textarea" type="textarea" />

@@ -86,11 +86,47 @@ Milligram's columns can have a left offset, it has the same sizes as its width.
 
 <Container>
   <Row class="my-5">
-    <Col size="6" class="col-demo">
-      6
+    <Col size="6">
+      <span class="col-demo">
+        6
+      </span>
     </Col>
     <Col size="3" offset="3" class="col-demo">
-      3 & offset 3
+      <span class="col-demo">
+        3 & offset 3
+      </span>
+    </Col>
+  </Row>
+</Container>
+```
+
+## Responsive
+
+There isn't full control over responsiveness with this grid system.
+
+On mobile, the row acts like a `Stack`, each `Col` is put on one another but keep it's size
+
+```example
+<script>
+  import { Col, Row, Container } from 'svmilli';
+
+</script>
+
+<p>
+  On mobile, these cols will take full width, try to reduce the size of your screen:
+</p>
+
+<Container>
+  <Row class="my-5">
+    <Col>
+      <span class="col-demo">
+        Some content in a col
+      </span>
+    </Col>
+    <Col>
+      <span class="col-demo">
+        Some content in a col
+      </span>
     </Col>
   </Row>
 </Container>
