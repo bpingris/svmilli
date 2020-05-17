@@ -1,6 +1,6 @@
 {
   "name": "svmilli",
-  "description": "UI framework for Svelte following the Google's material design",
+  "description": "UI framework for Svelte using the milligram CSS",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -19,10 +19,9 @@
   ],
   "files": [
     "src",
-    "dist",
-    "dist/styles/*.css"
+    "dist"
   ],
-  "version": "0.0.12",
+  "version": "0.0.13",
   "dependencies": {
     "rollup-plugin-postcss": "^3.1.1"
   }
