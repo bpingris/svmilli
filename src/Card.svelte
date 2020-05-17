@@ -20,6 +20,7 @@
 
 <style>
   .card {
+    background: white;
     border-radius: 0.4rem;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.171),
       0 10px 10px -5px rgba(0, 0, 0, 0.068);

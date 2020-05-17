@@ -12,4 +12,9 @@ title: false
 Svmilli is a set of Svelte components using [milligram](https://milligram.io/) for the style !
 
 [Install](install)
-[Documentation](documentation)
+
+<style>
+p {
+  text-align: center;
+}
+</style>

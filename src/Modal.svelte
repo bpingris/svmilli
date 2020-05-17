@@ -1,5 +1,5 @@
 <script>
-  import { fade } from "svelte/transition";
+  import { fade, fly } from "svelte/transition";
   export let show = false;
   export let canClose = true;
 
@@ -36,7 +36,7 @@
 {#if show}
   <div transition:fade={{ duration: 150 }} class="modal">
     <div class="background" on:click={handleBackgroundClick} />
-    <div class="content">
+    <div transition:fly={{ y: 50 }} class="content">
       <slot />
     </div>
   </div>

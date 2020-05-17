@@ -57,3 +57,11 @@ by using the grid system and buttons, we can create a form easily:
 </code>
 </pre>
 ```
+
+## Properties
+```properties
+value | Value of the input, can be bound | string("")
+label | Label of input | string(null)
+type | Type of the input (password, text, textarea, email...) | string("text")
+placeholder | Placeholder of the input | string(null")
+```

@@ -7,5 +7,6 @@
     - [Input](components/input)
     - [Card](components/card)
     - [Modal](components/modal)
+    - [Toast](components/toast)
     - [Quote](components/quote)
 * [Github](https://github.com/alexxnb/svelte-docs)

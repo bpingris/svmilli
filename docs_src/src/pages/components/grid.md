@@ -95,3 +95,10 @@ Milligram's columns can have a left offset, it has the same sizes as its width.
   </Row>
 </Container>
 ```
+
+## &lt;Col /&gt; Properties
+```properties
+size | Size of the column (0-12), 0 means auto width | number(0)
+offset | Offset of the column (0-12), 0 means no offset | number(0)
+
+```
