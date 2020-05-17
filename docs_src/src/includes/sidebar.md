@@ -9,4 +9,4 @@
     - [Modal](components/modal)
     - [Toast](components/toast)
     - [Quote](components/quote)
-* [Github](https://github.com/alexxnb/svelte-docs)
+* [Github](https://github.com/BenoitPingris/svmilli)
