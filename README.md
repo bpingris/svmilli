@@ -4,7 +4,7 @@
 
 # SVMILLI
 
-![svmilli logo](https://benoitpingris.github.io/svmilli/static/logo.svg =250x)
+<img src="https://benoitpingris.github.io/svmilli/static/logo.svg" widht="200px">
 
 
 Check the [documentation](https://benoitpingris.github.io/svmilli/) to setup this package !
