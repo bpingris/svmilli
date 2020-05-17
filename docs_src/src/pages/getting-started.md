@@ -1,19 +1,8 @@
-# About my component
+# About svmilli
 
-It is very cool button.
+Svmilli is a set of svelte components using the milligram stylesheet.
+It offers various components already styled and ready to use with a small bundle size.
 
 ## Installation
 
-Run this command:
-
-```shell
-$ npm install -D my-svelte-button
-```
-
-Then you can import it in your projects:
-
-```html
-<script> 
-    import Button from 'my-svelte-button';
-</script>
-```
+Checkout the [install](install) page

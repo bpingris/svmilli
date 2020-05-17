@@ -11,8 +11,5 @@ title: false
 
 Svmilli is a set of Svelte components using [milligram](https://milligram.io/) for the style !
 
-
-<div class="flex justify-around">
-  <a href="/install">Install</a>
-  <a href="/documentation">Documentation</a>
-</div>
+[Install](install)
+[Documentation](documentation)

@@ -10,4 +10,10 @@ Then add svmilli and milligram to your project:
 $ npm i svmilli miligram
 ```
 
-And finally, link the CSS sheet for milligram
+And finally, link the CSS sheet for milligram from your `global.css` file
+
+```css
+@import 'milligram/dist/milligram.min.css'
+```
+
+You're ready to got !

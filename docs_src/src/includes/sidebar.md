@@ -1,4 +1,5 @@
 * [Getting Started](getting-started)
+* [Install](install)
 * Components
     - [Button](components/button)
     - [Table](components/table)
