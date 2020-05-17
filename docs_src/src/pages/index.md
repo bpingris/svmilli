@@ -3,7 +3,7 @@ layout: 'no_sidebar'
 title: false
 ---
 
-<img src="static/logo.svg" style=" width: 150px;">
+<img alt="Svmilli logo" src="static/logo.svg" style=" width: 150px;">
 <h1 class="header">
   SVMILLI
 </h1>
