@@ -4,7 +4,9 @@
 
 # SVMILLI
 
-<img src="https://benoitpingris.github.io/svmilli/static/logo.svg" width="200px" style="display: block; margin: 0 auto;">
+<p align="center">
+  <img src="https://benoitpingris.github.io/svmilli/static/logo.svg" width="200px">
+</p>
 
 
 Check the [documentation](https://benoitpingris.github.io/svmilli/) to setup this package !
