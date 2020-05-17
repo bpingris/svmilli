@@ -7,7 +7,7 @@ module.exports = {
 
     title: {
         // constant part of page title
-        main: 'Svelte Thing Documentation',
+        main: 'Svmilli',
 
         // use first header's content as a part of page's title 
         // it looks for `# Header` and `## Header` on the current page
