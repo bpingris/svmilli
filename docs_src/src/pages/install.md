@@ -7,13 +7,39 @@ $ cd svelte-project && npm i
 
 Then add svmilli and milligram to your project:
 ```bash
-$ npm i svmilli miligram
+$ npm i svmilli milligram rollup-plugin-postcss
 ```
 
-And finally, link the CSS sheet for milligram in your `global.css` file:
+Now, edit your `rollup.config.js`:
+```js
+// Import the rollup postcss plugin
+import postcss from 'rollup-plugin-postcss';
 
-```css
-@import 'milligram/dist/milligram.min.css'
+...
+
+plugins: [
+		svelte({
+      dev: !production,
+      // Remove this option
+      // css: css => {
+			// 	css.write('public/build/bundle.css');
+      // }
+      // Replace it by this one
+			emitCss: true
+    }),
+    // Add the postcss plugin
+		postcss({
+			extract: true,
+			minimize: production,
+			sourceMap: !production
+		}),
+```
+
+```html
+<!-- App.svelte -->
+<script>
+  import 'svmilli';
+</script>
 ```
 
 You're ready to go !
