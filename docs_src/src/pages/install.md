@@ -38,7 +38,7 @@ plugins: [
 ```html
 <!-- App.svelte -->
 <script>
-  import 'svmilli';
+  import 'milligram';
 </script>
 ```
 
