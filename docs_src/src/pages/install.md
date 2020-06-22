@@ -15,24 +15,27 @@ Now, edit your `rollup.config.js`:
 // Import the rollup postcss plugin
 import postcss from 'rollup-plugin-postcss';
 
-...
-
-plugins: [
-		svelte({
-      dev: !production,
-      // Remove this option
-      // css: css => {
-			// 	css.write('public/build/bundle.css');
-      // }
-      // Replace it by this one
-			emitCss: true
-    }),
-    // Add the postcss plugin
-		postcss({
-			extract: true,
-			minimize: production,
-			sourceMap: !production
-		}),
+{
+  // ...
+  plugins: [
+      svelte({
+        dev: !production,
+        // Remove this option
+        // css: css => {
+        // 	css.write('public/build/bundle.css');
+        // }
+        // Replace it by this one
+        emitCss: true
+      }),
+      // Add the postcss plugin
+      postcss({
+        extract: true,
+        minimize: production,
+        sourceMap: !production
+      }),
+  ],
+  // ...
+}
 ```
 
 ```html
